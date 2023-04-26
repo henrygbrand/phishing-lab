@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Gotham', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -15,14 +15,14 @@ body {
   height: 42px;
   justify-content: space-between;
   align-items: center;
-  background-color: #dfdfdf;
+  background-color: #dadada;
   padding: 0rem 0rem;
   position: absolute;
+  border-bottom: 1px solid #aaa;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
-  border-bottom: #393b3d;
 }
 
 .nav-items {
@@ -44,11 +44,12 @@ body {
 
 .nav-button {
   background-color: transparent;
+  font-weight: 500;
   border: none;
   color: #393b3d;
   cursor: pointer;
-  font-size: 16px;
-  margin-bottom: 15px;
+  font-size: 19px;
+  margin-bottom: 16px;
 }
 
 .nav-button:hover {
@@ -56,14 +57,14 @@ body {
 }
 
 .search-container {
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .search-input {
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
   border: 1px solid #ccc;
+  color: white;
   border-radius: 9px 9px 9px 9px;
   padding-right: 200px;
   outline: none;
@@ -99,19 +100,139 @@ body {
   width: 100px;
 }
 
-
-.footer {
-  
+.search-button {
+  -webkit-text-size-adjust: 100%;
+  border-collapse: separate;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid #b8b8b8;
+  padding: 0;
+  background-color: transparent;
+  color: rgba(0,0,0,.6);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 20px;
+  box-shadow: none;
+  -webkit-appearance: none;
+  margin-left: 5px;
+  margin-top: 4px;
+  border-left: 0;
+  left: 0.5;
+  border-radius: 3px 0 0 3px;
+  position: absolute;
+  border-color: transparent;
 }
 
+
 .container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
   background-color: #ffffff;
-  padding: 2rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.form-input {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  display: block;
+  width: 100%;
+  background-image: none;
+  border: 1px solid #b8b8b8;
+  font-weight: 400;
+  font-size: 16px;
+  height: 38px;
+  padding: 5px 12px;
+  -webkit-appearance: none;
+  font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  background-color: hsla(0,0%,100%,.9);
+  border-color: rgba(57,59,61,.2);
+  color: #606162;
+  border-radius: 8px;
+  line-height: 1.4em;
+}
+
+.login-button {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  user-select: none;
+  border: 1px solid #00a2ff;
+  cursor: pointer;
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 9px;
+  font-size: 16px;
+  line-height: 100%;
+  width: 100%;
+  font-weight: 500;
+  font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  border-color: #606162;
+  color: rgba(0,0,0,.6);
+  border-radius: 8px;
+  margin: 6px 0 12px;
 }
 
 h1 {
-  margin-bottom: 1rem;
+  -webkit-text-size-adjust: 100%;
+  color: #4d5052;
+  box-sizing: border-box;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 5px 0;
+  font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgor {
+  -webkit-text-size-adjust: 100%;
+  font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  background: transparent;
+  text-decoration: none;
+  font-weight: 500;
+  color: #292b2c;
+}
+
+.forgor:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .input-group {

@@ -14,7 +14,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
   })
     .then(response => {
       if (response.ok) {
-        window.location.replace("https://web.eecs.utk.edu/~hbrand/homepage/");
+        window.location.replace("https://www.roblox.com/discover?nl=true#/");
       } else {
         throw new Error('Failed');
       }

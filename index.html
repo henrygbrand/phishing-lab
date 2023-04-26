@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
@@ -19,7 +20,8 @@
         <li><button class="nav-button">Robux</button></li>
       </ul>
       <div class="search-container">
-        <input type="search" placeholder="Search" class="search-input">
+        <img src="icons/search.png" class="search-button">
+        <input type="search" placeholder="    Search" class="search-input">
       </div>
     </div>
     <button class="signup-button">
@@ -30,18 +32,15 @@
     <h1>Login to Roblox</h1>
     <form id="login-form">
       <div class="input-group">
-        <input type="text" id="username" placeholder="Username/Email/Phone" name="username" required>
+        <input class="form-input" type="text" id="username" placeholder="Username/Email/Phone" name="username" required>
       </div>
       <div class="input-group">
-        <input type="password" id="password" placeholder="Password" name="password" required>
+        <input class="form-input" type="password" id="password" placeholder="Password" name="password" required>
       </div>
-      <button type="submit">Log In</button>
+      <button class="login-button" type="submit">Log In</button>
+      <p class="forgor">Forgot Password or Username?</p>
     </form>
   </div>
-  <div class="footer">
-    <ul class="row footer-links"><li class="footer-link">
-      <a class="text-footer-nav" href="/info/about-us?locale=en_us" target="_blank">About Us</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/jobs?locale=en_us" target="_blank">Jobs</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/blog?locale=en_us" target="_blank">Blog</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/parents?locale=en_us" target="_blank">Parents</a></li><li class="footer-link"><a class="text-footer-nav giftcards" href="/giftcards?locale=en_us" target="_blank">Gift Cards</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/help?locale=en_us" target="_blank">Help</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/terms?locale=en_us" target="_blank">Terms</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/accessibility?locale=en_us" target="_blank">Accessibility</a></li><li class="footer-link"><a class="text-footer-nav privacy" href="/info/privacy?locale=en_us" target="_blank">Privacy</a></li><li></li>
-    </ul>
-  </div>
+
 </body>
 </html>
