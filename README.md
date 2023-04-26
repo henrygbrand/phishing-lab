@@ -26,5 +26,5 @@ cd ~/phishing-lab
 serve
 ```
 
-4. Phish yourself by typing in your username and password and watch the credentials appear on the python program (DO NOT PHISH OTHER REAL PEOPLE!!!!!!!!)
-5. Get redirected to the official website to make it appear as if nothing suspicious happened
+6. Phish yourself by typing in your username and password and watch the credentials appear on the python program (DO NOT PHISH OTHER REAL PEOPLE!!!!!!!!)
+7. Get redirected to the official website to make it appear as if nothing suspicious happened
