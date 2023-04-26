@@ -5,22 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
-  <title>Login Page</title>
+  <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
+  <title>Roblox</title>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="navdiv">
+      <ul class="nav-items">
+        <li><img src="icons/logo.png" style="width: 150px; margin-left: 10px;"></li>
+        <li><button class="nav-button">Discover</button></li>
+        <li><button class="nav-button">Avatar Shop</button></li>
+        <li><button class="nav-button">Create</button></li>
+        <li><button class="nav-button">Robux</button></li>
+      </ul>
+      <div class="search-container">
+        <input type="search" placeholder="Search" class="search-input">
+      </div>
+    </div>
+    <button class="signup-button">
+      Sign Up
+    </button>
+  </nav>
   <div class="container">
-    <h1>Login</h1>
+    <h1>Login to Roblox</h1>
     <form id="login-form">
       <div class="input-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <input type="text" id="username" placeholder="Username/Email/Phone" name="username" required>
       </div>
       <div class="input-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <input type="password" id="password" placeholder="Password" name="password" required>
       </div>
-      <button type="submit">Login</button>
+      <button type="submit">Log In</button>
     </form>
+  </div>
+  <div class="footer">
+    <ul class="row footer-links"><li class="footer-link">
+      <a class="text-footer-nav" href="/info/about-us?locale=en_us" target="_blank">About Us</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/jobs?locale=en_us" target="_blank">Jobs</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/blog?locale=en_us" target="_blank">Blog</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/parents?locale=en_us" target="_blank">Parents</a></li><li class="footer-link"><a class="text-footer-nav giftcards" href="/giftcards?locale=en_us" target="_blank">Gift Cards</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/help?locale=en_us" target="_blank">Help</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/terms?locale=en_us" target="_blank">Terms</a></li><li class="footer-link"><a class="text-footer-nav" href="/info/accessibility?locale=en_us" target="_blank">Accessibility</a></li><li class="footer-link"><a class="text-footer-nav privacy" href="/info/privacy?locale=en_us" target="_blank">Privacy</a></li><li></li>
+    </ul>
   </div>
 </body>
 </html>
